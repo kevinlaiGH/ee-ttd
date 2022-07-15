@@ -9,7 +9,7 @@ export class EventEmitter {
   }
 
   emit(eventType: string, payload: Object):void {
-    this.events[eventType](payload);
+    this.events[eventType](payload)
   }
 }
 
